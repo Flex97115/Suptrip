@@ -1,5 +1,6 @@
 # Suptrip
 JEE application.
+
 Retrieve direct flight between Supinfo campuses. Using QPX-express API by Google.
 
 ## Search 
@@ -11,13 +12,16 @@ Retrieve direct flight between Supinfo campuses. Using QPX-express API by Google
 ##Web service
 
 Retrieve flight for all airport in the city
+
 http://localhost:8080/suptrip/rest/trips/city/{Departure city}/{Arrival city}
 
 Retrieve flight for 2 airports
+
 http://localhost:8080/suptrip/rest/trips/airport/{Departure airport}/{Arrival airport}
 
 ## API Key
 Get your API Key for QPX-express : https://console.developers.google.com
+
 Paste it in /suptrip/src/com/supinfo/suptrip/util/QPXExpress.java
 
 ###Requierment
