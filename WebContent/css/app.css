@@ -1,0 +1,107 @@
+/* Partie commune 	*/
+html{
+	height : 100%;
+	width : 100%;
+}
+
+.container{
+	width : 100%;
+	background-color : white;
+}
+
+body{
+	height : 100%;
+	width : 100%;
+	background-color : #D9EDF7 !important;
+}
+
+h1{
+	text-align : center;
+	text-shadow: 5px 5px #eee;
+}
+
+#gestionBlock{
+	margin : 0 100px;
+	padding : 30px;
+}
+/* Partie Menu */
+
+.titreHeader{
+	font-size : 14px;
+	font-weight : bold;
+	text-transform : uppercase;
+	color : #337AB7 !important;
+}
+
+.titreHeader2{	
+	font-size : 14px;
+	text-transform : uppercase;
+	color : #337AB7 !important;
+}
+
+.navbar{
+	margin-bottom : 50px;
+}
+
+/* Register */
+.alertInvalide{
+	width : 160px;
+	margin-bottom : 40px !important;
+}
+
+/* Login */
+.alertLogin{
+	margin-bottom : 40px !important;
+}
+
+/* Partie Index */
+.alertRegister{
+	width : 115px;
+	margin-bottom : 40px !important;
+}
+
+.alertDestination{
+	width : 150px;
+	margin-bottom : 40px !important;
+}
+
+.alertTrips{
+	width : 195px;
+	margin-bottom : 40px !important;
+}
+
+#suptrip{
+	letter-spacing: 3px;
+	font-size :100px;
+}
+#sup {
+	color:#ea4c56;
+	text-shadow: 5px 5px #eee;
+}
+#trip{
+	color:#31708F;
+	text-shadow: 5px 5px #eee;
+}
+
+blockquote{
+	margin : 30px !important;
+}
+
+/* Partie index, log, register, profile */
+label{
+	text-align : center;
+}
+
+.espaceBtn{
+	padding-bottom : 20px;
+}
+
+.btnAlign{
+	text-align : center;
+}
+
+/* Auth */
+/* Index */
+.padTable2{
+	margin-top : 80px;
+}
